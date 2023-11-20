@@ -1,0 +1,146 @@
+{
+  "ingredientes": {
+    "paes": [
+      {
+        "id": 1,
+        "tipo": "Italiano Branco"
+      },
+      {
+        "id": 2,
+        "tipo": "3 Queijos"
+      },
+      {
+        "id": 3,
+        "tipo": "Parmesão e Orégano"
+      },
+      {
+        "id": 4,
+        "tipo": "Integral"
+      },
+      {
+        "id": 5,
+        "tipo": "Pão Mexicano"
+      }
+    ],
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Maminha"
+      },
+      {
+        "id": 2,
+        "tipo": "Alcatra"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "Veggie burger"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Salame"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 4,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 4,
+        "tipo": "Pepino"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "nome": "Joaquim",
+      "carne": "Veggie burger",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Tomate",
+        "Pepino"
+      ],
+      "status": "Finalizado",
+      "id": 1
+    },
+    {
+      "nome": "Jorge",
+      "carne": "Maminha",
+      "pao": "Integral",
+      "opcionais": [
+        "Cheddar",
+        "Cebola roxa"
+      ],
+      "status": "Em produção",
+      "id": 2
+    },
+    {
+      "nome": "Joilson",
+      "carne": "Veggie burger",
+      "pao": "Integral",
+      "opcionais": [
+        "Cheddar",
+        "Pepino"
+      ],
+      "status": "Em produção",
+      "id": 3
+    },
+    {
+      "nome": "Rosangela",
+      "carne": "Picanha",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon",
+        "Salame",
+        "Cebola roxa",
+        "Cheddar",
+        "Tomate",
+        "Pepino"
+      ],
+      "status": "Em produção",
+      "id": 6
+    },
+    {
+      "nome": "Burgão do Zezão",
+      "carne": "Picanha",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon",
+        "Cheddar",
+        "Tomate"
+      ],
+      "status": "Solicitado",
+      "id": 7
+    }
+  ]
+}

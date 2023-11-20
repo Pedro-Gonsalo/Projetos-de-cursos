@@ -1,0 +1,14 @@
+INSTALAR
+- npm install json-server
+- No arquivo package.json/scripts - "backend": "json-server --watch db/db.json"
+- npm run backend
+- Resources: são as rotas que temos disponíveis no nosso sistema
+
+OBSERVAÇÕES
+- O que é view: 
+- O que é router(vá na navbar): 
+
+- Tag router (router-link, router-view): 
+    --> <router-link to="/caminho">: 
+    --> <router-view/>: a view é impressa nessa tag
+- O arquivo roter gerencia as url's da aplicação
